@@ -5,16 +5,15 @@
 
 
 、、、
+//进行上传地址的填写
++ (void)startWithServerURL:(NSString *)urlString;    
+举例：[LeqiAnalyticsSDK startWithServerURL:@"https://big-data.leqi.us/api/test/event/ios"];
 
-+ (void)startWithServerURL:(NSString *)urlString;    //进行上传网址的填写
-举例：
-[LeqiAnalyticsSDK startWithServerURL:@"https://big-data.leqi.us/api/test/event/ios"];
+//提交用户user_id
+- (void)login:(NSString *)loginId;      
+举例：[[LeqiAnalyticsSDK sharedInstance] login:@"user_id"];
 
-- (void)login:(NSString *)loginId;      //提交用户user_id
-举例：
-[[LeqiAnalyticsSDK sharedInstance] login:@"user_id"];
-
-- (void)track:(NSString *)eventName;    //自定义埋点
-[[LeqiAnalyticsSDK sharedInstance] track:@"click"];
-
+//自定义埋点
+- (void)track:(NSString *)eventName;    
+举例：[[LeqiAnalyticsSDK sharedInstance] track:@"click"];
 、、、

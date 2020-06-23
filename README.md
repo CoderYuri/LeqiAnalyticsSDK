@@ -1,8 +1,7 @@
 # LeqiAnalyticsSDK
 
 ### How to use LeqiAnalyticsSDK
-#### pod 'LeqiAnalyticsSDK'
-
+   * pod 'LeqiAnalyticsSDK'*
 
    ```
    //进行上传地址的填写

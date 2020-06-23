@@ -4,10 +4,11 @@
 #### pod 'LeqiAnalyticsSDK'
 
 
-、、、
-include <stdio.h>
-int main(void)
-{
-printf("Hello world\n");
-}
-、、、
+   ```
+   // A code block
+   var foo = 'bar';
+   ```
+   ```javascript
+   // An highlighted block
+   var foo = 'bar';
+   ```

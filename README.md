@@ -6,7 +6,11 @@
    ```
    //进行上传地址的填写
    + (void)startWithServerURL:(NSString *)urlString;    
-   举例：[LeqiAnalyticsSDK startWithServerURL:@"https://big-data.leqi.us/api/test/event/ios"];
+   
+   请求URL： https://big-data.leqi.us/api/<app_key>/event/ios  生产环境
+   app_key为该应用的标识
+   
+   举例：[LeqiAnalyticsSDK startWithServerURL:@"https://big-data.leqi.us/api/PROFESSIONAL_IMAGE/event/ios"];
    ```
    
    ```

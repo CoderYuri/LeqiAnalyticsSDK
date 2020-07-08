@@ -9,8 +9,14 @@
    
    请求URL： https://big-data.leqi.us/api/<app_key>/event/ios  生产环境
    app_key为该应用的标识
+   APP KEY  产品备注
+   9e66e6c0  智能证件照
+   ca81b25c  最美
+   d0c02ba2  证件照制作
+   d41ba5c2  乐骐证件照在线拍摄
+   e09f591a  长宽相机
    
-   举例：[LeqiAnalyticsSDK startWithServerURL:@"https://big-data.leqi.us/api/PROFESSIONAL_IMAGE/event/ios"];
+   举例：[LeqiAnalyticsSDK startWithServerURL:@"https://big-data.leqi.us/api/e09f591a/event/ios"];
    ```
    
    ```

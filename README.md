@@ -4,6 +4,8 @@
    //pod 'LeqiAnalyticsSDK'  暂不可用
 
    ```
+   #import <LeqiAnalyticsSDK/LeqiAnalyticsSDK.h>
+
    //进行上传地址的填写
    + (void)startWithServerURL:(NSString *)urlString;    
    

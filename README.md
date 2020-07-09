@@ -18,6 +18,7 @@
    d41ba5c2  乐骐证件照在线拍摄
    e09f591a  长宽相机
    
+   在AppDelegate文件中  进行初始化操作
    举例：[LeqiAnalyticsSDK startWithServerURL:@"https://big-data.leqi.us/api/e09f591a/event/ios"];
    ```
    

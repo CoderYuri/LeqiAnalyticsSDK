@@ -33,3 +33,9 @@
    - (void)track:(NSString *)eventName;    
    举例：[[LeqiAnalyticsSDK sharedInstance] track:@"click"];
    ```
+   
+   ```
+   //自定义埋点
+   - (void)track:(NSString *)eventName;    
+   举例：[[LeqiAnalyticsSDK sharedInstance] track:@"click"];
+   ```

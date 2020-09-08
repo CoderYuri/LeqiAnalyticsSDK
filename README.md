@@ -33,3 +33,9 @@
    - (void)track:(NSString *)eventName;    
    举例：[[LeqiAnalyticsSDK sharedInstance] track:@"click"];
    ```
+   
+   ```
+   //黑名单
+   leqidata_black_list.plist文件  
+   将不用统计的控制器添加进来  就可以不统计该页面
+   ```
